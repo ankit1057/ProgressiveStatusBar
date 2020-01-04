@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/BaselHorany/ProgressStatusBar.svg)](https://jitpack.io/#BaselHorany/ProgressStatusBar)
 
 
-# ProgressStatusBar
+# ProgressiveStatusBar
 Another way to show progress. A progress View over the system StatusBar.
 in addition to showing a toast message.
 
@@ -103,7 +103,5 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 
-## Author
-Basel Horany 
-[http://baselhorany.com](http://baselhorany.com)
+
 
