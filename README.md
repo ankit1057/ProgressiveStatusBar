@@ -1,27 +1,9 @@
-[![](https://jitpack.io/v/BaselHorany/ProgressStatusBar.svg)](https://jitpack.io/#BaselHorany/ProgressStatusBar)
+[![](https://jitpack.io/v/ankit1057/ProgressiveStatusBar.svg)](https://jitpack.io/#ankit1057/ProgressiveStatusBar)
 
 
 # ProgressiveStatusBar
 Another way to show progress. A progress View over the system StatusBar.
 in addition to showing a toast message.
-
-<p align="left">
-The first form is suitable for showing that the activity is being loaded like fetching data from server, meanwhile the second form is better for real process and the third is for waiting.
-</p>
-
-<p align="center">
-  <img src="https://github.com/BaselHorany/ProgressStatusBar/blob/master/showcase.gif?raw=true" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/BaselHorany/ProgressStatusBar/blob/master/showtoast.png?raw=true" width="360" />
-</p>
-
-That was for android pre-oreo 
-on oreo and above statusbar will remain visible for all options like this:
-<p align="center">
-  <img src="https://github.com/BaselHorany/ProgressStatusBar/blob/master/showtoastoreo.png?raw=true" width="360" />
-</p>
 
 
 ## Setup
@@ -36,7 +18,7 @@ allprojects {
 2- Add it as a dependency to your app `build.gradle`
 ```groovy
 dependencies {
-  compile 'com.github.BaselHorany:ProgressStatusBar:1.1.9'
+	implementation 'com.github.ankit1057:ProgressiveStatusBar:Tag'
 }
 ```
 3- Add `SYSTEM_ALERT_WINDOW` permission "unnecessary if your app's targetSdkVersion => oreo"
